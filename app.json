@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "my-project",
+    "slug": "my-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/doatech.png",
+    "splash": {
+      "image": "./assets/doatech.png", 
+      "resizeMode": "cover",
+      "backgroundColor": "black"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/doatech.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
